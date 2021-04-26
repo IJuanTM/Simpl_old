@@ -1,19 +1,13 @@
-<div style="text-align: center;">
-
-# Simpl
-
-<div style="max-width: 60%;">
-
-![Simpl](simpl.svg)
-
-</div>
+![Simpl](simpl.png)
 
 <hr>
+
+<p align="center">
 
 ![Version](https://img.shields.io/badge/version-3.1beta-red)
 ![PHP](https://img.shields.io/badge/php-8.0.3-blue?logo=php)
 
-</div>
+</p>
 
 <br>
 
