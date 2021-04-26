@@ -1,0 +1,18 @@
+// RULES
+@import "rules/@keyframes";
+
+// VARS
+@import "vars";
+
+// STYLE
+@import "style";
+
+// PAGE
+
+// VIEW
+@import "view/home";
+
+// PARTS
+@import "view/parts/content";
+@import "view/parts/footer";
+@import "view/parts/navbar";
