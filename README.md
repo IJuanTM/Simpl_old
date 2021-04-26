@@ -1,14 +1,19 @@
+<div style="text-align: center;">
+
 # Simpl
+
+<div style="max-width: 60%;">
+
+![Simpl](simpl.svg)
+
+</div>
 
 <hr>
 
-> ##### _**Version:** 3.1 - 1 April 2021_
+![Version](https://img.shields.io/badge/version-3.1beta-red)
+![PHP](https://img.shields.io/badge/php-8.0.3-blue?logo=php)
 
-<br>
-
-##### **Created by:** Iwan van der Wal
-
-##### **GitHub:** Simpl by IJuanTM
+</div>
 
 <br>
 
@@ -78,7 +83,7 @@
 ##### Version 3:
 
 ```
-3.1 (1-Apr-2021)    -   Fixed a lot of problems regarding the update to PHP version 8 (8.0.3)
+3.1 (26-Apr-2021)   -   Fixed a lot of problems regarding the update to PHP version 8 (8.0.3)
                     -   Added a whole example page you can load up to see the main functions of Simpl 
                         in action and inspect them so you know how to use them in your own project!
                     -   Better way of sass compiling, now as a npm function in the package file!
@@ -90,21 +95,15 @@
                     -   Put the variables in their own vars file for SCSS.
 ```
 
-<br>
+### **_Download latest version:_**
 
-<hr>
-
-### **_Download:_**
-
-Site: <https://www.iwanvanderwal.nl/simpl>
+Site: <https://simpl.iwanvanderwal.nl/>
 
 Clone: `git clone https://github.com/IJuanTM/simpl`
 
 <hr>
 
 <br>
-
-### Read more about how Simpl works and its functionalities here:
 
 ## Index:
 
@@ -254,7 +253,7 @@ What example is:
 
 ### **_Download:_**
 
-Site: <https://www.iwanvanderwal.nl/simpl>
+Site: <https://simpl.iwanvanderwal.nl/>
 
 Clone: `git clone https://github.com/IJuanTM/simpl`
 
@@ -278,4 +277,4 @@ Clone: `git clone https://github.com/IJuanTM/simpl`
 
 ###### Licenced under free use, please do not redistibute as your own and do not remove the credit in the header of the page
 
-###### But you are free to use Simpl in your website or projects and publish them.
+###### You are free to use Simpl in your website or projects and publish them.
