@@ -1,19 +1,19 @@
 ![Simpl](simpl.png)
 
-<hr>
+***
 
-<p align="center">
+<div align="center">
 
 ![Version](https://img.shields.io/badge/version-3.1beta-red)
 ![PHP](https://img.shields.io/badge/php-8.0.3-blue?logo=php)
 
-</p>
+</div>
 
 <br>
 
 ## About Simpl:
 
-<hr>
+***
 
 #### Simpl is an easy-to-use PHP, HTML, CSS, SCSS and JavaScript framework!
 
@@ -33,7 +33,7 @@
 
 ## Update History:
 
-<hr>
+***
 
 <br>
 
@@ -95,13 +95,13 @@ Site: <https://simpl.iwanvanderwal.nl/>
 
 Clone: `git clone https://github.com/IJuanTM/simpl`
 
-<hr>
+***
 
 <br>
 
 ## Index:
 
-<hr>
+***
 
 1. [About](#1-about)
 2. [Quick Start](#2-quick-start)
@@ -111,7 +111,7 @@ Clone: `git clone https://github.com/IJuanTM/simpl`
 6. [Add-ons](#6-add-ons)
 7. [Example](#7-example)
 
-<hr>
+***
 
 <br>
 
@@ -243,7 +243,7 @@ What example is:
 
 <br>
 
-<hr>
+***
 
 ### **_Download:_**
 
@@ -251,13 +251,13 @@ Site: <https://simpl.iwanvanderwal.nl/>
 
 Clone: `git clone https://github.com/IJuanTM/simpl`
 
-<hr>
+***
 
 <br>
 
 ## Credits:
 
-<hr>
+***
 
 - [Fontawesome](https://fontawesome.com/)
 - [SASS](https://sass-lang.com/)
@@ -267,7 +267,7 @@ Clone: `git clone https://github.com/IJuanTM/simpl`
 
 <br>
 
-<hr>
+***
 
 ###### Licenced under free use, please do not redistibute as your own and do not remove the credit in the header of the page
 
