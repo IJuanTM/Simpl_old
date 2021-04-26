@@ -269,6 +269,10 @@ Clone: `git clone https://github.com/IJuanTM/simpl`
 
 ***
 
+<div align="center">
+
 ###### Licenced under free use, please do not redistibute as your own and do not remove the credit in the header of the page
 
 ###### You are free to use Simpl in your website or projects and publish them.
+
+</div>
