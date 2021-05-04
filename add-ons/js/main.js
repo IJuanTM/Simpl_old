@@ -5,6 +5,8 @@
 
 if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) $("body").load("../../view/parts/errors/unsupported.phtml");
 
+// ----------------------------------------------------------------------------------------------------
+
 /**
  * An JQuery script I wrote to enable the 'show password' eye that lots of sites have in their forms.
  * To add your own just make sure that your password field is of type password and you have something
@@ -29,6 +31,8 @@ if (inputPassword) {
     });
 }
 
+// ----------------------------------------------------------------------------------------------------
+
 /**
  * A piece of Javascript to get the value of a range slider and print it.
  */
@@ -43,9 +47,11 @@ if (sliderInput) {
     };
 }
 
+// ----------------------------------------------------------------------------------------------------
+
 /**
  * Code for a loading icon, it will show as long as the page is loading
- * And or for a minimum amount of time set with the timeout
+ * and or for a minimum amount of time set with the timeout.
  */
 
 // Initialize variables
@@ -79,8 +85,10 @@ if (loadIcon) {
     }, 250);
 }
 
+// ----------------------------------------------------------------------------------------------------
+
 /**
- * Code for a darkmode switch, uses a checkbox with label items
+ * Code for a darkmode switch, uses a checkbox with label items.
  */
 
 // Initialize variable
@@ -121,8 +129,10 @@ if (themeSwitch) {
     }
 }
 
+// ----------------------------------------------------------------------------------------------------
+
 /**
- * Code for an extendable and retractable navbar menu
+ * Code for an extendable and retractable navbar menu.
  */
 
 // Initialize variables
@@ -141,8 +151,10 @@ window.matchMedia("(min-width: 961px)").addEventListener("change", function () {
     hamburger.classList.remove("is-active");
 });
 
+// ----------------------------------------------------------------------------------------------------
+
 /**
- * Code to show the cookie alert
+ * Code to show the cookie alert.
  */
 
 const cookieAlert = document.querySelector(".cookie-card");
@@ -179,3 +191,40 @@ if (cookieAlert) {
         return "";
     }
 }
+
+// ----------------------------------------------------------------------------------------------------
+
+/**
+ * Code to get the current active page and highlight the navbar item.
+ */
+
+// Navbar active item class
+$(document).ready(function () {
+    // Get page path
+    let path = "/" + urlArr[1];
+    if (path === "/") path = '/home';
+
+    // Search for closest matching id of the current page path
+    $(".nav-row .nav-item").each(function () {
+        const id = $(this).attr('id');
+        if (path.substring(0, id.length) === id) $(this).closest('div').addClass('active');
+    });
+});
+
+// ----------------------------------------------------------------------------------------------------
+
+/**
+ * Smooth scroll to element using <a> and the element id.
+ */
+
+// Smooth scroll to element
+$('a[href*="#"]').not('[href="#"]').not('[href="#0"]').click(function (event) {
+    if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
+        let target = $(this.hash);
+        target = target.length ? target : $("[name=" + this.hash.slice(1) + "]");
+        if (target.length) {
+            event.preventDefault();
+            $("html, body").animate({scrollTop: target.offset().top}, 500);
+        }
+    }
+});

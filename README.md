@@ -4,8 +4,9 @@
 
 <div align="center">
 
-![Version](https://img.shields.io/badge/version-3.1beta-red)
-![PHP](https://img.shields.io/badge/php-8.0.3-blue?logo=php)
+![Version](https://img.shields.io/badge/release-3.1beta-red)
+![Update](https://img.shields.io/badge/update-3.2-orange)
+![PHP](https://img.shields.io/badge/php-8.0.5-blue?logo=php)
 
 </div>
 
@@ -87,6 +88,10 @@
                         in a password input field. 
                     -   Added a @mixins and a @keyframes SCSS file.
                     -   Put the variables in their own vars file for SCSS.
+
+3.2 (4-May-2021)    -   Update to PHP 8.0.5
+                    -   Moved Database.php to add-ons
+                    -   Added more JavaScript code pieces to use
 ```
 
 ### **_Download latest version:_**

@@ -1,6 +1,14 @@
 <?php
+/**
+ * Website page name.
+ */
+
 // Set the title of the page
 const PAGENAME = 'Simpl Framework';
+
+/**
+ * Default redirect page to send the user back to when entering a non-existing page for instance.
+ */
 
 // Set the default redirect page
 const REDIRECT = 'home';
@@ -9,12 +17,6 @@ const REDIRECT = 'home';
 define('DATE', date('Y-m-d'));
 define('TIME_FULL', date('H:i:s'));
 define('TIME', date('H:i'));
-
-// Set the database values
-const DB_NAME = '';
-const DB_USERNAME = '';
-const DB_SERVER = '';
-const DB_PASSWORD = '';
 
 // Set needed folders for page loading
 const VIEW = 'view/';
