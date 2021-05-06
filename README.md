@@ -18,21 +18,10 @@
 
 #### Simpl is an easy-to-use PHP, HTML, CSS, SCSS and JavaScript framework!
 
-#### It works by using a view/part system seen in other frameworks but made smarter and easier to use!
-
-<br>
-
-#### Comes included with Fontawesome icons, and support for SASS and JQuery
-
-<br>
-
-#### I made Simpl as a quick setup template for myself and then decided to expand it and release it for other to use.
-
-<br>
-
-#### Feel free to leave me any suggestions, ideas or complaints!
-
-<br>
+- It works by using a view/part system seen in other frameworks but made smarter and easier to use!
+- Comes included with Fontawesome icons, and support for SASS and JQuery
+- I made Simpl as a quick setup template for myself and then decided to expand it and release it for other to use.
+- Feel free to leave me any suggestions, ideas or complaints!
 
 ###### Credits for things used in Simpl listed below.
 
