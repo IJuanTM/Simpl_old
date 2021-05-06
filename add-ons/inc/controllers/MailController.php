@@ -2,25 +2,6 @@
 
 class MailController
 {
-    public static function get_mail($name): bool|string
-    {
-        return file_get_contents(MAILS . $name . '.phtml');
-    }
-
-    public static function send_mail($sender_name, $receiver, $sender_mail, $subject, $message)
-    {
-        /**
-         * Set all the headers and then send the mail
-         */
-        $headers = [];
-        $headers[] = 'MIME-Version: 1.0';
-        $headers[] = 'Content-type: text/html; charset=iso-8859-1';
-        $headers[] = 'To: ' . $receiver;
-        $headers[] = 'From: ' . $sender_name . '<' . $sender_mail . '>';
-        mail($receiver, $subject, $message, implode("\r\n", $headers));
-        FormController::form_message('Mail has been successfully send!', 'success', 1, 'home');
-    }
-
     public static function siteContact_mail($user_name, $user_mail, $subject, $message)
     {
         /**
@@ -41,6 +22,20 @@ class MailController
         MailController::send_mail($user_name, $receiver, $user_mail, $subject, $site_message);
     }
 
+    public static function send_mail($sender_name, $receiver, $sender_mail, $subject, $message)
+    {
+        /**
+         * Set all the headers and then send the mail
+         */
+        $headers = [];
+        $headers[] = 'MIME-Version: 1.0';
+        $headers[] = 'Content-type: text/html; charset=iso-8859-1';
+        $headers[] = 'To: ' . $receiver;
+        $headers[] = 'From: ' . $sender_name . '<' . $sender_mail . '>';
+        mail($receiver, $subject, $message, implode("\r\n", $headers));
+        FormController::form_message('Mail has been successfully send!', 'success', 1, 'home');
+    }
+
     public static function userContact_mail($receiver)
     {
         /**
@@ -56,6 +51,11 @@ class MailController
         $site_mail = 'no-relpy@mail.com';
         $subject = 'Thanks for your message!';
         MailController::send_mail($site_name, $receiver, $site_mail, $subject, $contact_message);
+    }
+
+    public static function get_mail($name): bool|string
+    {
+        return file_get_contents(MAILS . $name . '.phtml');
     }
 
     public static function userRegister_mail($receiver)
