@@ -1,3 +1,8 @@
+// Fontawesome attribution
+console.log(`Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com 
+License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+`)
+
 /**
  * Check if user is using IE
  * IF so load a full screen overlay to tell them to use a modern browser
