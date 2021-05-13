@@ -21,7 +21,7 @@ if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) $("body").load("../../view
 // Toggle password input field type and icon on click
 $(document).on('click', '.toggle-password', function () {
     $(this).toggleClass("fa-eye fa-eye-slash");
-    const passwordInput = $(":text, :password")
+    const passwordInput = $(":text, :password");
     passwordInput.attr('type') === 'password' ? passwordInput.attr('type', 'text') : passwordInput.attr('type', 'password');
 });
 
@@ -83,7 +83,7 @@ if (loadIcon) {
     });
 
 // 3 dot load animation
-    const dots = window.setInterval(function () {
+    window.setInterval(function () {
         const wait = document.getElementById("load-dot");
         if (wait.innerHTML.length >= 3) wait.innerHTML = "";
         else wait.innerHTML += ".";
