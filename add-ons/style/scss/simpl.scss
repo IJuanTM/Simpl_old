@@ -300,3 +300,32 @@ form.--simpl-form {
     }
   }
 }
+
+// Form Alerts
+div.--simpl-alert {
+  font-size: 1rem;
+  margin: 0 .5rem 1rem;
+  padding: 1rem 1.75rem;
+  border-radius: .25rem;
+  @include box-shadow(2px 2px 0 0 rgba(0, 0, 0, .25));
+
+  &.success {
+    color: #155724;
+    background-color: #D4EDDA;
+  }
+
+  &.warning {
+    color: #856404;
+    background-color: #FFF3CD;
+  }
+
+  &.error {
+    color: #721C24;
+    background-color: #F8D7DA;
+  }
+
+  &.info {
+    color: #0C5460;
+    background-color: #D1ECF1;
+  }
+}

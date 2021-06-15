@@ -12,7 +12,7 @@ class FormController
 
     public static function form_message($message, $type, $refresh, $location): string
     {
-        static::$alert = '<div class="alert ' . $type . '" role="alert">' . $message . '</div>';
+        static::$alert = '<div class="--simpl-alert ' . $type . '" role="alert">' . $message . '</div>';
         header("Refresh: " . $refresh . "; url=" . PageController::url($location) . "");
         return static::$alert;
     }
