@@ -109,7 +109,10 @@
 4.1 (15-Jun-2021)       -   Update to PHP 8.0.7
                         -   Big changes made to the base structure, now only the bare minimum is in the src folder
                             and all extra's are found in the add-ons folder.
-                        -   Fixed small issues and formatting
+                        -   Fixed small issues and formatting.
+                        -   Moved some code in the scss files and reformatted the files.
+                        -   Updated SASS.
+                        -   Removed main.css as this file is auto-generated via sass anyway.
 ```
 
 ### **_Download latest version:_**
