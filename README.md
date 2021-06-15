@@ -4,9 +4,10 @@
 
 <div align="center">
 
-![Version](https://img.shields.io/badge/release-3.2.1-red)
-![Update](https://img.shields.io/badge/develop-3.2.2-orange)
-![PHP](https://img.shields.io/badge/php-8.0.5-blue?logo=php)
+![Version](https://img.shields.io/badge/version-4.1-e52d2d)
+![PHP](https://img.shields.io/badge/php-8.0.7-787CB4?logo=php)
+![PHP](https://img.shields.io/badge/sass-1.34.1-CF649A?logo=sass)
+![JQuery](https://img.shields.io/badge/jquery-3.6.0-0769AD?logo=jquery)
 
 </div>
 
@@ -93,6 +94,22 @@
                         
 3.2.1 (6-May-2021)      -   Updated the SASS package to the latest version.
                         -   Fixed issues in the README file.
+3.3 (13-May-2021)       -   Moved icons to add-ons and updated them
+                        -   Moved some code to add-ons
+                        -   Updated JQuery
+```
+
+###### _(Work that was being done on version 3.4 has been moved to version 4 due to lack of time)_
+
+<br>
+
+##### Version 4:
+
+```
+4.1 (15-Jun-2021)       -   Update to PHP 8.0.7
+                        -   Big changes made to the base structure, now only the bare minimum is in the src folder
+                            and all extra's are found in the add-ons folder.
+                        -   Fixed small issues and formatting
 ```
 
 ### **_Download latest version:_**
@@ -186,8 +203,8 @@ If you have ideas, suggestions or even a complaint, feel free to contact me via 
 
 #### How parts work:
 
-- A part is an component on a certain page, for example the navbar or footer. The content is where the pages from the view folder get loaded. In the parts folder you also will find the header and bottom part, these combined are the main html file. There also is a folder called index, here are 3 files: css, js and meta. These contain the code to load your css and js files and
-  the optional meta tags.
+- A part is a component on a certain page, for example the navbar or footer. The content is where the pages from the view folder get loaded. In the parts folder you also will find the header and bottom part, these combined are the main html file. There also is a folder called index, here are 3 files: css, js and meta. These contain the code to load your css and js files and the
+  optional meta tags.
 
 - Thats the basics for the parts. The parts folder is also used for making sub pages on your site, you can find example files in the add-ons folder on GitHub.
 
@@ -244,6 +261,14 @@ Clone: `git clone https://github.com/IJuanTM/Simpl`
 - [npm](https://www.npmjs.com/)
 - [JQuery](https://jquery.com/)
 - [Hamburgers](https://jonsuh.com/hamburgers/)
+
+<br>
+
+<div align="center">
+
+### And a big shout-out to [J. Malotaux](https://github.com/JEMX-mbou) for helping me with the initial setup!
+
+</div>
 
 <br>
 
